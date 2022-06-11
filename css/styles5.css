@@ -1,0 +1,99 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.wrapper {
+    margin: 0 auto;
+    justify-content: center;
+}
+
+header {
+    background-image: url("../images/backgr-img.jpg");
+    background-repeat: repeat;
+    background-color: darkslateblue;
+}
+
+header a {
+    display: inline-block;
+    border: 1px solid transparent;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 24px;
+    color: bisque;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header a:hover {
+    color: darkviolet;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    background-color: rgba(255, 228, 196, 0.35);
+}
+
+.container aside {
+    width: 240px;
+}
+
+.container .aside-right {
+    margin-left: 20px;
+}
+
+.container .aside-left {
+    margin-right: 20px;
+}
+
+.container main {
+    width: 680px;
+}
+
+.container p {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container img {
+    max-width: 100%;
+}
+
+footer {
+    background-color: darkslateblue;
+    background-image: url("../images/backgr-img.jpg");
+    overflow: hidden;
+}
+
+footer div.footer-container {
+    display: flex;
+    justify-content: center;
+}
+
+footer div.footer-container2 {
+    width: 250px;
+    height: 200px;
+    background-color: rgba(255, 228, 196, 0.15);
+    margin: 30px 30px 20px;
+}
+
+footer div.part {
+    height: 50%;
+    border: 1px solid black;
+}
+
+footer p {
+    margin: 0 0 10px 0;
+    text-align: center;
+    color: bisque;
+}
+
+footer div.part h3 {
+    text-align: center;
+    margin: 10px auto;
+    color: burlywood;
+}

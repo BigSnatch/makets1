@@ -1,0 +1,63 @@
+* {
+    /* саме херове рішення */
+    /* margin: 0; */
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.center {
+    width: 75%;
+    margin: 0 auto;
+    text-align: justify;
+    /* решение номер 1: */
+    /* border: 1px solid transparent;  */
+}
+
+.wrapper {
+    background-color: rgb(49, 28, 12);
+    color: antiquewhite;
+    /* решение номер 2: */
+    overflow: hidden;
+}
+
+.line {
+    background-color: antiquewhite;
+    color: rgb(49, 28, 12);
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+#contacts p, #footer p {
+    text-align: center;
+}
+
+ol li {
+    margin-bottom: 10px;
+}
+
+#company .center p {
+    text-indent: 2em;
+    margin: 0;
+}
+
+#company .center p:first-of-type {
+    margin-top: 10px;
+}
+
+#company .center p:last-of-type {
+    margin-bottom: 20px;
+}
+
+#header ul {
+    width: max-content;
+    margin: 0 auto 15px;
+    padding-left: 15px;
+    font-size: 22px;
+    font-weight: bold;
+}
+
